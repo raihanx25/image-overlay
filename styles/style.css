@@ -1,23 +1,24 @@
-
-
 .parent{
 
     position: relative;
+    top:0;
     bottom: 0;
     /* padding: 0px 200px 0px 200px; */
 }
 
 
- .image1{
+ .image-a1{
       position:relative;
+      top: 0;
       bottom: 0;
       /* margin-bottom: 1px; */
       
  }
   
- .image2{
+ .image-a2{
       position: absolute;
-      bottom: 2px;
+      /* top: 0px; */
+      bottom: 0.125px;
       background-color: white;
       border: 1px solid;
       border-color: aqua;
@@ -28,6 +29,40 @@
       /* align-items: center; */
 
  }
- .parent2{
+
+  .parent-2{
+     position: relative;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     padding: 0px 250px 0px 250px;
+  }
+ .image-b2{
      padding: 0px 450px 0px 250px;
+     display: flex;
+     justify-content: center;
+     position: relative;
+     bottom: 0;
+     left: 0;
+     right:0;
+     
+
  }
+  .image-b3{
+     display: flex;
+     /* justify-content:right; */
+     border: 1px solid ;
+     border-color: blue;
+     background-color: blueviolet;
+     margin: 200px 0px 0px 0px;
+     height: 100px;
+     max-width: 450px;
+     align-content: center;
+
+     position: absolute;
+     /* top: 5px; */
+     bottom: 1px;
+     left: 20px;
+     right:20px;
+
+}   
